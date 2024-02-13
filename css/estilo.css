@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
-  background-image: url(/img/03-img-body/fondo2.jpg);
-  background-color: black;
+  background-image: url(/img/);
+  background-color: rgb(109, 40, 40);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -67,7 +67,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: rgba(253, 255, 191, 0.53);
+  color: rgb(212, 168, 109);
   text-decoration: none;
 }
 
@@ -103,9 +103,9 @@ form {
 footer {
   font-size: 12px;
   padding: 1%;
-  background-color: orangered;
+  background-color: transparent;
   color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
+  border: none;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -128,7 +128,7 @@ footer {
 }
 
 .navBar {
-  background-color: orangered;
+  background-color: transparent;
   font-size: x-large;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   display: flex;
@@ -137,7 +137,7 @@ footer {
 
 .navBardrop1,
 .navBardrop2 {
-  background-color: orangered;
+  background-color: transparent;
   border: none;
   justify-content: center;
   color: rgb(241, 225, 192);
@@ -150,7 +150,7 @@ footer {
 }
 
 .menu-link:hover {
-  color: #000000;
+  color: rgb(212, 168, 109);
   /* Cambia el color a blanco al pasar el mouse */
 }
 
@@ -165,7 +165,6 @@ footer {
 }
 
 main {
-  border: 10px rgb(255, 255, 255);
   align-items: center;
 }
 
@@ -188,11 +187,11 @@ main {
   height: "600px";
   padding: 20px;
   border-radius: 20px;
-  border: 5px orangered solid;
+  border: 1px rgb(212, 168, 109) solid;
 }
 
 .imagenCentro {
-  border: 3px orangered solid;
+  border: 1px rgb(212, 168, 109) solid;
   margin: 10px 80px;
 }
 
@@ -204,7 +203,7 @@ main {
   font-size: 18px;
   color: rgb(212, 211, 211);
   font-weight: bold;
-  border: 3px solid #a2a1a1;
+  border: 1px rgb(212, 168, 109) solid;
   border-radius: 20px;
   padding: 20px;
   margin-top: 20px;
@@ -214,7 +213,7 @@ main {
   background-color: rgba(212, 208, 208, 0.6549019608);
   font-style: italic;
   color: #FFF;
-  border: none;
+  border: 1px rgb(212, 168, 109) solid;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 10px;
@@ -231,7 +230,7 @@ main {
 }
 
 .botonEnviar {
-  background-color: #565656;
+  background-color: transparent;
   color: #ccbfb4;
   border: none;
   border-radius: 10px;
@@ -277,7 +276,7 @@ main {
   width: 100%;
   padding: auto;
   border-radius: 20px;
-  border-color: orangered;
+  border: 1px rgb(212, 168, 109) solid;
 }
 
 .card-body {
@@ -293,16 +292,16 @@ main {
   font-size: xx-large;
   text-align: justify;
   border-radius: 20px;
-  border: 5px orangered dotted;
+  border: 5px rgb(212, 168, 109) dotted;
 }
 
 /*******TIENDA********/
 .botonComprar {
   padding: 8px 16px;
   font-size: 16px;
-  border: none;
+  border: 2px rgba(255, 255, 255, 0.453) solid;
   border-radius: 10px;
-  background-color: rgb(144, 67, 37);
+  background-color: transparent;
   color: rgb(255, 255, 255);
   cursor: pointer;
   transition: all 0.3s ease;
@@ -311,7 +310,8 @@ main {
 }
 
 .botonComprar:hover {
-  background-color: #ff5e00;
+  background-color: rgba(160, 86, 86, 0.9764705882);
+  border: 2px rgba(255, 255, 255, 0.479) solid;
   color: #ffffff;
   border: none;
 }
@@ -322,6 +322,13 @@ main {
 
 .card1 {
   background: transparent;
+}
+
+.card {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
 }
 
 .card-title {
@@ -340,12 +347,12 @@ main {
 /*******REPRODUCTORES********/
 .tituloReproductores {
   text-align: center;
-  color: orangered;
+  color: rgb(212, 168, 109);
 }
 
 .h1Titulo {
   color: white;
-  background: linear-gradient(black, orangered);
+  background: linear-gradient(black, yellow);
   font-size: x-large;
   border: none;
   border-radius: 20px;
@@ -357,7 +364,7 @@ main {
   font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-transform: uppercase;
   font-size: medium;
-  border: 2px orangered solid;
+  border: 1px rgb(212, 168, 109) solid;
   border-radius: 20px;
   padding: 5px;
   display: flex;
@@ -365,7 +372,7 @@ main {
 }
 
 .padreReproductores {
-  border: 3px orangered solid;
+  border: 1px rgb(212, 168, 109) solid;
   border-radius: 20px;
   margin: auto;
   display: flex;
@@ -382,7 +389,7 @@ main {
 .gridEstilo1 {
   color: white;
   border-radius: 20px;
-  border: 3px orangered solid;
+  border: 1px rgb(212, 168, 109) solid;
   font-size: x-large;
 }
 
@@ -392,7 +399,7 @@ main {
 }
 
 .gridChords {
-  border: 3px orangered solid;
+  border: 1px rgb(212, 168, 109) solid;
   border-radius: 20px;
   color: aqua;
 }

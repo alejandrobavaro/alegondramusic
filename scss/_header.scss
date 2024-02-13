@@ -1,5 +1,5 @@
 .navBar {
-  background-color: orangered;
+  background-color:transparent;
   font-size: x-large;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
@@ -8,7 +8,7 @@
 
 .navBardrop1,
 .navBardrop2 {
-  background-color: orangered;
+  background-color:transparent;
   border: none;
   justify-content: center;
   color: rgb(241, 225, 192);
@@ -23,7 +23,7 @@
 
 
 .menu-link:hover {
-  color: #000000;
+  color: rgb(212, 168, 109);
   /* Cambia el color a blanco al pasar el mouse */
 }
 

@@ -1,6 +1,6 @@
 body {
-  background-image: url(/img/03-img-body/fondo2.jpg);
-  background-color: black;
+  background-image: url(/img/);
+  background-color: rgb(109, 40, 40);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -73,7 +73,7 @@ a {
 
   /* Link visitado */
   &:visited {
-    color: rgba(253, 255, 191, 0.53);
+    color: rgb(212, 168, 109);
     text-decoration: none;
   }
 }
