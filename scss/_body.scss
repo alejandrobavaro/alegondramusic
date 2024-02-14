@@ -1,8 +1,8 @@
 body {
-  background-image: url(/img/01-fondos/fondo1a.jpg);
+  background-image: url(/img/01-fondos/fondo4b.jpg);
   background-color: rgb(0, 0, 0);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: repeat;
+  background-position: cover;
   background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -32,13 +32,13 @@ ol {
 /* Link sin visitar todavia */
 a {
   &:link {
-    color: rgb(255, 255, 255);
+    color: rgb(212, 168, 109);
     text-decoration: none;
   }
 
   /* Link visitado */
   &:visited {
-    color: rgb(241, 225, 192);
+    color: rgb(212, 168, 109);
     text-decoration: none;
   }
 }
