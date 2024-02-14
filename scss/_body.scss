@@ -1,7 +1,7 @@
 body {
-  background-image: url(/img/);
-  background-color: rgb(109, 40, 40);
-  background-repeat: repeat;
+  background-image: url(/img/01-fondos/fondo1a.jpg);
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -10,48 +10,13 @@ body {
 
 p {
   color: rgb(241, 225, 192);
-
-  font-size: medium;
   text-align: justify;
 }
 
-h1 {
-  color: white;
-  font-size: large;
-}
-
-h2 {
-  color: aquamarine;
-  font-size: medium;
-}
-
-h3 {
-  color: rgb(255, 111, 0);
-}
-
-h4 {
-  color: #e3baa5;
-
-}
 
 
-h5 {
-  color: rgb(255, 255, 255);
-  font-style: normal;
 
-  margin-top: 11px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
-h6 {
-  color: rgb(237, 228, 204);
-  font-style: normal;
-
-  margin-top: 11px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 li {
   color: white;
@@ -73,7 +38,7 @@ a {
 
   /* Link visitado */
   &:visited {
-    color: rgb(212, 168, 109);
+    color: rgb(241, 225, 192);
     text-decoration: none;
   }
 }
