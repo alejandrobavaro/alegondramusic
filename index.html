@@ -50,59 +50,53 @@
 
     <!------------------------HEADER ------------------------>
 
+    <header class="encabezado">
 
-    <header>
+      <!-- NAV BAR MENU -->
 
-
-      <!-- ----------------------NAV BAR MENU ------------------------>
-
-      <div class="navBar">
+      <!-- Encabezado de la página con el menú de navegación -->
+      <div class="navBar img-fluid">
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-
-
-
+            <!-- Botón de menú hamburguesa -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-
               <a class="navbar-brand" href="index.html"> <img src="img/02-logos/loguitopequeñoalegondra1.png"
                   alt="loguitopequeñoalmangomenu2"></a>
-
-
               <span class="navbar-toggler-icon"></span>
             </button>
-
+            <!-- Contenido del menú -->
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
               <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                <!-- Elementos del menú -->
+                <a class="nav-link menu-link" aria-current="page" href="index.html">HOME</a>
 
                 <li class="nav-link nav-item dropdown">
 
                   <button class="navBardrop1 dropdown-toggle menu-link" data-bs-toggle="dropdown" aria-expanded="false">
-                    ESCUCHANOS </button>
+                    MÚSICA </button>
                   <ul class="dropdown-menu dropdown-menu-dark">
                     <li><a class="navBardrop2 dropdown-item" href="index.html">CANCIONES</a></li>
                     <li><a class="navBardrop2 dropdown-item" href="index.html">VIDEOCLIPS</a></li>
-                    <li><a class="navBardrop2 dropdown-item" href="index.html">VIDEOLIRICS</a></li>
-                  </ul>
-                </li>
-
-                <a class="nav-link" href="index.html">CONTACTO</a>
-
-                <li class="nav-link nav-item dropdown">
-                  <button class="navBardrop1 dropdown-toggle menu-link" data-bs-toggle="dropdown" aria-expanded="false">
-                    NOVEDADES </button>
-
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="navBardrop2 dropdown-item" href="index.html">LIVE SHOWS</a></li>
-                    <li><a class="navBardrop2 dropdown-item" href="index.html">PRENSA</a></li>
-                    <li><a class="navBardrop2 dropdown-item" href="index.html">BIOGRAFÍAS</a></li>
                     <li><a class="navBardrop2 dropdown-item" href="index.html">BACKSTAGE</a></li>
                   </ul>
                 </li>
 
-                <a class="nav-link" href="index.html">TIENDA</a>
+                <a class="nav-link menu-link" aria-current="page" href="index.html">CONTACTO</a>
+
+                <li class="nav-link nav-item dropdown">
+                  <button class="navBardrop1 dropdown-toggle menu-link" data-bs-toggle="dropdown" aria-expanded="false">
+                    INFO </button>
+
+
+                  <ul class="dropdown-menu dropdown-menu-dark">
+
+                    <li><a class="navBardrop2 dropdown-item" href="index.html">PRENSA</a></li>
+                    <li><a class="navBardrop2 dropdown-item" href="index.html">BIOGRAFÍAS</a></li>
+                  </ul>
+                </li>
+
+                <a class="nav-link menu-link" href="index.html">TIENDA</a>
 
                 <li class="nav-link nav-item dropdown">
 
@@ -112,62 +106,54 @@
 
                   </button>
                   <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="navBardrop2 dropdown-item" href="pages/c-k-discoanadadeserlotodo.html">Disco "A NADA
-                        DE
-                        SERLO TODO"</a></li>
+                    <li><a class="navBardrop2 dropdown-item" href="index.html">Disco "A NADA DE
+                        SERLO TODO"</a>
+                    </li>
+                    <li><a class="navBardrop2 dropdown-item"
+                        href="index.html">PROXIMAMENTE</a></li>
                   </ul>
                 </li>
 
-                <a class="nav-link" href="index.html">COLABORÁ</a>
+                <a class="nav-link menu-link" aria-current="page" href="index.html">COLABORÁ</a>
 
                 <li class="nav-link nav-item dropdown">
                   <button class="navBardrop1 dropdown-toggle menu-link" data-bs-toggle="dropdown" aria-expanded="false">
                     DATA </button>
                   <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="navBardrop2 dropdown-item" href="pages/d-gacetillaprensa.html">GACETILLA</a>
+                    <li><a class="navBardrop2 dropdown-item" href="index.html">GACETILLA</a>
                     </li>
-                    <li><a class="navBardrop2 dropdown-item" href="pages/d-ridersonido.html">RIDER DE SONIDO</a></li>
-                    <li><a class="navBardrop2 dropdown-item" href="pages/d-plantaluces.html">PLANTA DE LUCES</a></li>
-                    <li><a class="navBardrop2 dropdown-item" href="pages/d-stageplanta.html">STAGE PLANTA</a></li>
-                    <li><a class="navBardrop2 dropdown-item" href="pages/d-ridervideo.html">RIDER DE VIDEO </a></li>
-
+                    <li><a class="navBardrop2 dropdown-item" href="index.html">RIDER TECNICO</a></li>
+                    <li><a class="navBardrop2 dropdown-item" href="index.html">RIDER DE VIDEO </a></li>
                   </ul>
-                </li>
               </div>
             </div>
-
           </div>
         </nav>
       </div>
-
-
-
     </header>
+
 
     <main>
 
 
-      <!-- LOGO CENTRO -->
-      <div class="col">
-        <div class="card" style="  background: transparent;">
-          <div class="card-body">
+      <!-- GRID PARA UBICAR LOGOS EN TV -->
 
-            <div class="objetoCentrado welcome">
-              <a href="#" target="_blank"><img src="img/02-logos/logoalegondramusicnew2.png" class="img-fluid"
-                  alt="videoclipfiesta" /></a>
-            </div>
+      <div class="gridPadre">
 
+        <!-- LOGO CENTRO -->
+        <div class="item">
+          <a href="https://alejandrobavaro.github.io/alegondramusic/" target="_blank"> <img class="welcome"
+              src="img/02-logos/logoalegondramusicnew2.png" alt="afiche1" /></a>
+        </div>
 
-
-
-    
-          </div>
-
+        <div class="item">
+          <a href="https://alejandrobavaro.github.io/gondraworld/"> <img class="imagen-limitada"
+              src="img/02-logos/logogondraworld2.png" alt="afiche1" /></a>
         </div>
       </div>
 
 
-      <!------------------------------------------------------- -->
+
 
 
     </main>
@@ -175,19 +161,11 @@
 
 
     <footer>
-      <div>
-        <a href="https://alejandrobavaro.github.io/gondraworld/"> <img class="objetoCentrado1" src="img/02-logos/logogondraworld2.png"
-            alt="afiche1" /></a>
-      </div>
-
 
       <div class="footerElements">
         <div class="img1Footer">
           <img src="img/02-logos/caraalegondra1b.png" class="img-fluid" alt="indexcarruselmedio3b-copia" />
         </div>
-
-
-
         <div class="linksFooter">
           <div>
             <a href="https://www.instagram.com/alegondramusic/" target="_blank">

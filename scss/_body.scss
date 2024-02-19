@@ -1,73 +1,73 @@
+/* Estilos para el cuerpo de la página */
 body {
-  background-color: rgb(0, 0, 0);
-  background-image: url(/img/01-fondos/fondo4b.jpg);
-  background-repeat: repeat;
-  background-position: cover;
-  background-size: cover;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+  background-image: url(../img/01-fondos/fondo4a.jpg); /* Imagen de fondo */
+  background-color: rgb(229, 97, 97); /* Color de fondo */
+  background-repeat: no-repeat; /* No repetir la imagen de fondo */
+  background-position: center; /* Posición de la imagen de fondo */
+  background-size: cover; /* Ajusta la imagen al tamaño del body */
+  background-attachment: fixed; /* Fija la imagen de fondo */
+  font-family: 'Courier New', Courier, monospace; /* Familia de fuentes */
+  }
 
+/* Estilos para el fondo negro en pantallas pequeñas */
+@media screen and (max-width: 578px) {
+  body {
+   background-image: url(../img/01-fondos/fondo4b.jpg);  /* Elimina la imagen de fondo */
+   background-repeat: repeat; /* repetir la imagen de fondo */
+  background-position: center; /* Posición de la imagen de fondo */
+  background-size: cover; /* Ajusta la imagen al tamaño del body */
+ }
+  }
 
 p {
-  color: rgb(241, 225, 192);
-  text-align: justify;
+  color: rgb(241, 225, 192); /* Color de texto */
 }
 
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 
+h2 {
+  color: rgb(255, 255, 255); /* Color de texto */
+}
 
+h3 {
+  color: rgb(224, 205, 190); /* Color de texto */
+}
 
+h4 {
+  color: #e3baa5; /* Color de texto */
+}
 
+h5 {
+  color: rgb(255, 255, 255); /* Color de texto */
+}
 
+/* Estilos para los títulos h6 */
+h6 {
+  color: rgb(167, 222, 219); /* Color de texto */
+}
+
+/* Estilos para las listas */
 li {
-  color: white;
-  font-size: medium;
-  list-style-type: none;
+  list-style-type: none; /* Tipo de viñetas */
 }
 
+/* Estilos para las listas ordenadas */
 ol {
-  list-style-type: circle;
+  list-style-type: circle; /* Tipo de viñetas */
 }
 
-
-/* Link sin visitar todavia */
+/* Estilos para los enlaces */
 a {
+  /* Enlace sin visitar */
   &:link {
-    color: rgb(212, 168, 109);
-    text-decoration: none;
+    color: rgb(255, 242, 0); /* Color de texto */
+    text-decoration: none; /* Sin subrayado */
   }
-
-  /* Link visitado */
+  /* Enlace visitado */
   &:visited {
-    color: rgb(212, 168, 109);
-    text-decoration: none;
+    color: rgb(240, 195, 105); /* Color de texto */
+    text-decoration: none; /* Sin subrayado */
   }
-}
-
-.videos1 {
-  width: 100px;
-  height: 100px;
-}
-
-form {
-  background-color: rgba(255, 98, 0, 0.448);
-  width: 50%;
-  height: auto;
-  padding: 20px;
-  border: none;
-  border-radius: 20px;
-}
-
-.botonEnviar {
-  background-color: white;
-  border-style: none;
-  font-weight: bold;
-  color: orangered;
-  margin-top: 30px;
-  border: none;
-}
-
-.parrafoContacto {
-  font-size: large;
-  color: aqua;
-  text-align: center;
 }
