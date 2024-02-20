@@ -1,6 +1,7 @@
 .card4 {
     background: transparent;
     border-radius: 20px;
+    border: 2px rgba(255, 233, 159, 0.547) solid;
     font-size: small;
     padding: 10px;
     // border: 1px rgba(0, 255, 255, 0.419) solid;
@@ -9,14 +10,15 @@
 .card {
     text-align: justify;
     background: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(244, 228, 158);
     border-radius: 20px;
-    border: none;
+    border: rgb(199, 95, 95);
 }
 
 
 .tarjetaGaleria1 {
     border-radius: 20px;
+    border: 2px rgb(255, 255, 255) solid;
 }
 
 .card3 {

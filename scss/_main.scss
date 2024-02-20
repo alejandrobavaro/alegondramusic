@@ -19,18 +19,27 @@ main {
 }
 
 .imagen-limitada {
-  width: 30%;
+  width: 20%;
   height: auto;
   border: none;
   border-radius: 20px;
   margin-top: 40px;
 }
 
+.imagen-limitada1 {
+  width: 80%;
+  height: auto;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+
 /*******TITULOS********/
 
 .h1Titulo {
   color: white;
-  background: linear-gradient(black, orangered);
+  background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(255, 159, 4, 0.394));
   font-size: x-large;
   border: none;
   border-radius: 20px;
@@ -38,12 +47,10 @@ main {
 }
 
 .h2Titulo {
-  color: aquamarine;
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(240, 240, 167);
   text-transform: uppercase;
-  font-size: medium;
-  border: 2px orangered solid;
-  border-radius: 20px;
+  font-size: large;
+  border: none;
   padding: 5px;
   display: flex;
   justify-content: center;

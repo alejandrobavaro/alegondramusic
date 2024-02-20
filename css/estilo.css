@@ -122,12 +122,14 @@ h4 {
 }
 
 h5 {
-  color: rgb(255, 255, 255); /* Color de texto */
+  color: rgb(249, 231, 174); /* Color de texto */
+  font-size: small;
 }
 
 /* Estilos para los títulos h6 */
 h6 {
   color: rgb(167, 222, 219); /* Color de texto */
+  font-size: smaller;
 }
 
 /* Estilos para las listas */
@@ -157,6 +159,7 @@ a:visited {
 .card4 {
   background: transparent;
   border-radius: 20px;
+  border: 2px rgba(255, 233, 159, 0.547) solid;
   font-size: small;
   padding: 10px;
 }
@@ -164,13 +167,14 @@ a:visited {
 .card {
   text-align: justify;
   background: transparent;
-  color: rgb(255, 255, 255);
+  color: rgb(244, 228, 158);
   border-radius: 20px;
-  border: none;
+  border: rgb(199, 95, 95);
 }
 
 .tarjetaGaleria1 {
   border-radius: 20px;
+  border: 2px rgb(255, 255, 255) solid;
 }
 
 .card3 {
@@ -230,7 +234,7 @@ a:visited {
 footer {
   font-size: 12px; /* Tamaño de fuente */
   padding: 1%; /* Relleno */
-  background-color: rgba(0, 0, 0, 0.449); /* Color de fondo */
+  background-color: rgba(0, 0, 0, 0.26); /* Color de fondo */
   color: rgb(255, 255, 255); /* Color de texto */
   margin: 0; /* Margen */
   text-align: center; /* Alineación del texto */
@@ -466,7 +470,15 @@ main {
 }
 
 .imagen-limitada {
-  width: 30%;
+  width: 20%;
+  height: auto;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.imagen-limitada1 {
+  width: 80%;
   height: auto;
   border: none;
   border-radius: 20px;
@@ -476,7 +488,7 @@ main {
 /*******TITULOS********/
 .h1Titulo {
   color: white;
-  background: linear-gradient(black, orangered);
+  background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(255, 159, 4, 0.394));
   font-size: x-large;
   border: none;
   border-radius: 20px;
@@ -484,12 +496,10 @@ main {
 }
 
 .h2Titulo {
-  color: aquamarine;
-  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(240, 240, 167);
   text-transform: uppercase;
-  font-size: medium;
-  border: 2px orangered solid;
-  border-radius: 20px;
+  font-size: large;
+  border: none;
   padding: 5px;
   display: flex;
   justify-content: center;
