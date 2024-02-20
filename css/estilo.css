@@ -148,7 +148,7 @@ a {
   /* Enlace visitado */
 }
 a:link {
-  color: rgb(255, 242, 0); /* Color de texto */
+  color: rgb(240, 231, 167); /* Color de texto */
   text-decoration: none; /* Sin subrayado */
 }
 a:visited {
@@ -202,31 +202,42 @@ a:visited {
 
 /* Estilos para el teléfono de WhatsApp */
 .telefonoWhattsapp {
-  font-size: small; /* Tamaño de fuente */
-  font-weight: bold; /* Peso de la fuente */
-  text-align: center; /* Alineación del texto */
-  white-space: nowrap; /* Evita que el texto se envuelva */
+  font-size: small;
+  /* Tamaño de fuente */
+  font-weight: bold;
+  /* Peso de la fuente */
+  text-align: center;
+  /* Alineación del texto */
+  white-space: nowrap;
+  /* Evita que el texto se envuelva */
 }
 
-/**LOGO WHATSAPP**/
+/**LOGO WHATSAPP EN CENTRO**/
 .logoWhats {
-  width: 150px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  width: 60px;
+  height: auto;
 }
 
 /* Estilos para el mapa */
 .mapaEstilo {
-  background-color: transparent; /* Color de fondo */
-  color: rgb(255, 255, 255); /* Color del texto */
-  font-style: normal; /* Estilo de fuente */
-  font-size: 20px; /* Tamaño de fuente */
-  width: "100%"; /* Ancho */
-  height: "600px"; /* Altura */
-  padding: 20px; /* Relleno */
-  border-radius: 20px; /* Radio del borde */
-  border: 5px orangered solid; /* Borde */
+  background-color: transparent;
+  /* Color de fondo */
+  color: rgb(255, 255, 255);
+  /* Color del texto */
+  font-style: normal;
+  /* Estilo de fuente */
+  font-size: 20px;
+  /* Tamaño de fuente */
+  width: "100%";
+  /* Ancho */
+  height: "600px";
+  /* Altura */
+  padding: 20px;
+  /* Relleno */
+  border-radius: 20px;
+  /* Radio del borde */
+  border: 5px orangered solid;
+  /* Borde */
 }
 
 /* Estilos del pie de página */
@@ -478,7 +489,7 @@ main {
 }
 
 .imagen-limitada1 {
-  width: 80%;
+  width: 100%;
   height: auto;
   border: none;
   border-radius: 20px;
@@ -487,8 +498,7 @@ main {
 
 /*******TITULOS********/
 .h1Titulo {
-  color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(255, 159, 4, 0.394));
+  color: rgb(249, 230, 189);
   font-size: x-large;
   border: none;
   border-radius: 20px;
